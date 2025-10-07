@@ -1,0 +1,829 @@
+/* this is for new */
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #fff; /* white background */
+}
+
+.hero-image {
+  width: 220px;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 25px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero button {
+  padding: 12px 30px;
+  background-color: #4CAF50; /* green button */
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #45a049;
+}
+
+
+
+/*Below code is for index page*/
+
+.indexbody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  background-color: #f5f7fa;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #0b0247;
+  min-height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar .logo h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  color: #0b0247;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.main-content button {
+  background-color: #1abc9c;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-content button:hover {
+  background-color: #149472;
+}
+
+
+/*Above code is for index page*/
+
+
+
+
+
+/*Below code is for login and signup page*/
+
+body.login-body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 10px;
+}
+
+.login-container p.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.login-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+meter {
+  width: 100%;
+  height: 6px;
+  margin-top: 5px;
+}
+
+
+/*Above code is for login and signup*/
+
+
+
+
+
+/*Below code is for FAQ page*/
+
+
+/* FAQ Page Styling */
+body.faqbody {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f9f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.faq-container:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.faq-container h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 18px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item:hover {
+  background: #f5f8ff;
+}
+
+.question {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0d2b6f;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question::after {
+  content: "➕";
+  font-size: 1rem;
+  color: #555;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.faq-item.active .question::after {
+  content: "➖";
+  color: #0d6efd;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #444;
+  margin-top: 8px;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.faq-item.active .answer {
+  max-height: 300px; /* large enough to show full text */
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .faq-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .faq-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .question {
+    font-size: 1rem;
+  }
+
+  .answer {
+    font-size: 0.95rem;
+  }
+}
+
+
+/*Above code is for FAQ page*/
+
+
+
+
+
+/*Below code is for About us page*/
+
+body.aboutusbody {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.aboutus_main_part {
+    max-width: 900px;
+    margin: 60px auto;
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    line-height: 1.8;
+}
+
+.aboutus_main_part h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.aboutus_main_part p {
+    font-size: 1.05em;
+    color: #444;
+    white-space: pre-line;
+}
+
+.aboutus_main_part p::first-line {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutus_main_part {
+        padding: 25px 20px;
+        margin: 30px 15px;
+    }
+
+    .aboutus_main_part h1 {
+        font-size: 2em;
+    }
+
+    .aboutus_main_part p {
+        font-size: 1em;
+    }
+}
+
+
+/*Above code is for About us page*/
+
+
+
+
+/*Below code is for contact us page*/
+
+.contactus_main_part {
+  border: 1px solid black;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.contactus_main_part h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.userdetail input[type="text"],
+.userdetail input[type="email"],
+.userdetail textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.userdetail textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.userdetail button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #007ea7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/*Above code is for contact us page*/
+
+
+
+
+
+
+
+/* Below codee is for Profile page */
+
+
+body.profile-body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.profile-card {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-header h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.profile-info {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+.details {
+  flex: 1;
+}
+
+.details p {
+  font-size: 1rem;
+  color: #444;
+  margin: 8px 0;
+}
+
+.action-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.action-buttons button {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.action-buttons button:hover {
+  background-color: #1a242f;
+}
+
+
+
+
+/* Above codee is for Profile page */
+
+
+
+
+
+
+/* Below code is for the help page */
+
+
+body.help-body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+.help-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.help-container h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.help-container .intro {
+  text-align: center;
+  font-size: 1.05em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.help-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 4px solid #2c3e50;
+  background-color: #f9fbff;
+  border-radius: 8px;
+}
+
+.help-section h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.help-section p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 0.95em;
+  color: #444;
+}
+
+.contact-box {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ecf3ff;
+  border: 2px dashed #3498db;
+  border-radius: 10px;
+}
+
+.contact-box h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.contact-box p {
+  font-size: 1em;
+  color: #444;
+}
+
+
+/* Above code is for the help page */
+
+
+
+
+
+/* Below pcode is for Showcase page */
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f9f9fb;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.showcase-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #0d2b6f;
+}
+
+/* Slider */
+.slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.showcase-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.image-wrap img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Navigation */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* Dots */
+.dots {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.dots button {
+  height: 12px;
+  width: 12px;
+  margin: 0 6px;
+  border-radius: 50%;
+  border: none;
+  background: #bbb;
+  cursor: pointer;
+}
+
+.dots button.active {
+  background: #0d6efd;
+}
+.image-wrap {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 15px; /* adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+
+/* Above code is for Showcase page */
+
+
+
+
+
+
+/* Below code is for data entry page*/
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Barcode Section */
+.barcode-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.barcode-section label {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.barcode-section input[type="text"] {
+    width: 70%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+table input[type="text"],
+table input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Save Button */
+.save-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.save-button button {
+    padding: 12px 35px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .barcode-section input[type="text"] {
+        width: 100%;
+    }
+
+    table input[type="text"],
+    table input[type="number"] {
+        width: 100%;
+    }
+}
+
+/* Above code is for data entry page*/

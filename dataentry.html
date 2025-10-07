@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Entry with Barcode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="POST" action="dataentry/save_data.php">
+    <div class="barcode-section">
+        <label for="barcode">Scan Barcode (Process Name):</label><br>
+        <input type="text" id="barcode" name="barcode" placeholder="Scan or enter process name here...">
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Process Name</th>
+                <th>PCS</th>
+                <th>Weight (Carat)</th>
+                <th>Percentage (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" value="Table Process" name="process_name[]" readonly></td>
+                <td><input type="number" name="pcs[]" placeholder="Enter PCS"></td>
+                <td><input type="number" name="carat[]" placeholder="Enter Carat"></td>
+                <td><input type="number" name="percentage[]" placeholder="Enter %"></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Patta Process" name="process_name[]" readonly></td>
+                <td><input type="number" name="pcs[]" placeholder="Enter PCS"></td>
+                <td><input type="number" name="carat[]" placeholder="Enter Carat"></td>
+                <td><input type="number" name="percentage[]" placeholder="Enter %"></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Final Process" name="process_name[]" readonly></td>
+                <td><input type="number" name="pcs[]" placeholder="Enter PCS"></td>
+                <td><input type="number" name="carat[]" placeholder="Enter Carat"></td>
+                <td><input type="number" name="percentage[]" placeholder="Enter %"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="save-button">
+        <button type="submit">Save</button>
+    </div>
+</form>
+
+</body>
+
+</html>

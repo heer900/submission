@@ -1,0 +1,1 @@
+{"username":"heer","email":"24it025@charusat.edu.in","password":"$2y$10$kQihtj7Y870YyNiiDL\/\/3uQcp8htQCf3WPXtKeYL2AlpaPFH5mZ9y","registered_at":"2025-09-27 18:10:51"}
